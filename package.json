@@ -1,7 +1,7 @@
 {
     "name": "OpenInBrowser",
-    "id": "open-in-browser",
-    "version": "1.0.0",
+    "id": "open-in-browser-plugin",
+    "version": "1.0.1",
     "description": "Graviton plugin that allows you to open any HTML/PNG/SVG file in your default browser.",
     "main": "index.js",
     "mainSrc": "index.js",
