@@ -4,7 +4,7 @@ import translate from "./i18n.js";
 const path = window.require("path");
 
 export function entry({ StatusBarItem, StaticConfig, RunningConfig }) {
-    var file;
+    let file;
     const item = new StatusBarItem({
         label: translate("label", StaticConfig.data.appLanguage),
         hint: translate("hint", StaticConfig.data.appLanguage),
@@ -13,7 +13,9 @@ export function entry({ StatusBarItem, StaticConfig, RunningConfig }) {
                 open(file);
         }
     });
+    
     item.hide();
+    
     RunningConfig.on("aTabHasBeenFocused", ({ directory }) => {
         const extension = path.extname(directory).toLowerCase();
         if (/\.(html|png|svg)$/.test(extension)) {
@@ -23,6 +25,10 @@ export function entry({ StatusBarItem, StaticConfig, RunningConfig }) {
             file = null;
             item.hide();
         }
+    });
+
+    RunningConfig.on("aTabHasBeenClosed", ({ directory }) => {
+        item.hide();
     });
 
     StaticConfig.keyChanged("appLanguage", (language) => {
