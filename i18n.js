@@ -1,18 +1,18 @@
 export const strings = {
     label: {
         brazilian_portuguese: "Abra no navegador",
-        catalan: "Oberta al navegador",
+        catalan: "Obrir al navegador",
         english: "Open in browser",
         french: "Ouvrir dans le navigateur",
         german: "Im Browser öffnen",
         italian: "Apri nel browser",
         russian: "Открыть в браузере",
-        spanish: "Abrir en navegador",
+        spanish: "Abrir en el navegador",
     },
     hint: {
         brazilian_portuguese: "Abre o arquivo atual no seu navegador padrão",
         catalan: "Obre el fitxer actual al navegador predeterminat",
-        english: "Opens the current file in your default browser",
+        english: "Open the current file in your default browser",
         french: "Ouvre le fichier actuel dans votre navigateur par défaut",
         german: "Öffnet die aktuelle Datei in Ihrem Standardbrowser",
         italian: "Apre il file corrente nel browser predefinito",
