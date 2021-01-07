@@ -8,6 +8,7 @@ export const strings = {
         italian: "Apri nel browser",
         russian: "Открыть в браузере",
         spanish: "Abrir en el navegador",
+        turkish: "Tarayıcıda aç",
     },
     hint: {
         brazilian_portuguese: "Abre o arquivo atual no seu navegador padrão",
@@ -18,6 +19,7 @@ export const strings = {
         italian: "Apre il file corrente nel browser predefinito",
         russian: "Открывает текущий файл в браузере по умолчанию",
         spanish: "Abre el archivo actual en tu navegador por defecto",
+        turkish: "Mevcut dosyayı varsayılan tarayıcınızda açın",
     }
 };
 
