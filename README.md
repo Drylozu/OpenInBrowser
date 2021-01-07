@@ -20,6 +20,7 @@ It adds an item in the status bar, there you can open the file
 - **Català** (Catalan)
 - **Italiano** (Italian)
 - **English**
+- **Türkçe** (Turkish)
 
 If you know a language and want to contribute, do a PR with the translated strings.
 I'll appreciate it :heart:
