@@ -1,0 +1,29 @@
+{
+    "name": "OpenInBrowser",
+    "id": "open-in-browser",
+    "version": "1.0.0",
+    "description": "Graviton plugin that allows you to open any HTML/PNG/SVG file in your default browser.",
+    "main": "index.js",
+    "mainSrc": "index.js",
+    "mainDev": "dist/index.js",
+    "scripts": {
+        "start": "gvsdk --entry package.json --target plugin",
+        "build": "gvsdk --entry package.json --target plugin --mode release"
+    },
+    "keywords": [
+        "open",
+        "url",
+        "html",
+        "web",
+        "graviton",
+        "plugin"
+    ],
+    "author": "Drylotrans",
+    "license": "MIT",
+    "devDependencies": {
+        "@gveditor/sdk": "^0.1.5"
+    },
+    "dependencies": {
+        "open": "^7.0.4"
+    }
+}
