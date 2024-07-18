@@ -18,7 +18,7 @@
         "graviton",
         "plugin"
     ],
-    "author": "Drylotrans",
+    "author": "Drylozu",
     "license": "MIT",
     "devDependencies": {
         "@gveditor/sdk": "^0.1.5"
