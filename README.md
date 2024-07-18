@@ -1,7 +1,8 @@
 # Open In Browser
-![Made with love for Graviton](https://raw.githubusercontent.com/Graviton-Code-Editor/website/master/src/badges/made_for_graviton.svg?sanitize=true)
+[![Made with love for Graviton](https://raw.githubusercontent.com/Graviton-Code-Editor/website/master/src/badges/made_for_graviton.svg?sanitize=true)](https://github.com/Graviton-Code-Editor/Graviton-App)
 
 A simple [Graviton](https://github.com/Graviton-Code-Editor/Graviton-App) plugin to open HTML/SVG/PNG files in your preferred app (normally it's the browser).
+
 It adds an item in the status bar, there you can open the file
 
 ### How to install it
